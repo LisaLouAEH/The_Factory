@@ -16,15 +16,15 @@ L tab **Assembly** :
   
 L tab **Part**:  
 ----L champs :  
---------L id (integer primary key autoincrement)     
---------L name (string)   
+--------L id (integer primary key autoincrement)   
+--------L name (string)  
 
 L tab **Assemblor**:  
 ----L champs :  
---------L id (integer primary key autoincrement)     
---------L assembly_id (integer)
+--------L id (integer primary key autoincrement)  
+--------L assembly_id (integer)  
 --------L part_id (integer)   
-
+  
 <hr/>
 
 > Pour tester la relation N-N dans ce programme nous allons créer un assemblage de biberon pour bébé. (NB: ne pas oublier 'bundle install' et 'rails db:migrate' avant de commencer)  
