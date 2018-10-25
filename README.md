@@ -11,7 +11,7 @@
 
 L tab **Assembly** :   
 ----L champs :  
---------L id (integer primary key autoincrement) 
+--------L id (integer primary key autoincrement)  
 --------L name (string)   
   
 L tab **Part**:  
