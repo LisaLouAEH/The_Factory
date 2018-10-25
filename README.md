@@ -27,7 +27,7 @@ L tab **Assemblor**:
 
 <hr/>
 
-> Pour tester la relation N-N dans ce programme nous allons créer un assemblage de biberon pour bébé.  
+> Pour tester la relation N-N dans ce programme nous allons créer un assemblage de biberon pour bébé. (NB: ne pas oublier 'bundle install' et 'rails db:migrate' avant de commencer)  
 
 <hr/>  
 
