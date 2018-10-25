@@ -37,11 +37,11 @@ L tab **Assemblor**:
 * Créer une entrée pour le produit fini 'Biberize Turbo 3000'  
   ``` biberon = Assembly.create(name: "Biberize Turbo 3000") ```  
 
-* Crée une entrée pour la pièce 'tétine' qui complètera l'assemblage  
+* Crée une entrée pour la pièce 'tétine' qui complètera l'assemblage    
   ```  tetine = Part.create(part_number: "Soft'in babyVor V2")  ```  
 
-* Maintenant nous allons assembler la 'tétine' au reste du corps du biberon de folie integalactique !!
-  ```  biberon.parts << tetine  ```
+* Maintenant nous allons assembler la 'tétine' au reste du corps du biberon de folie integalactique !!  
+  ```  biberon.parts << tetine  ```  
 
-* Je vous laisse admirer le résultat avec un petit (qui montre que notre model 'Soft'in babyVor V2' à bien été installé sur notre biberon)
-  ```  biberon.parts ``` 
+* Je vous laisse admirer le résultat avec un petit (qui montre que notre model 'Soft'in babyVor V2' à bien été installé sur notre biberon)  
+  ```  biberon.parts ```   
